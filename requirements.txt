@@ -1,0 +1,8 @@
+# The ONE justified external dependency: Web Push encryption.
+# pywebpush sends an encrypted push to the browser vendor's push service.
+# It pulls in `cryptography` (ECDH P-256 + AES-128-GCM), which Python's
+# standard library does not have. Everything else is standard library.
+# Install into a virtual environment (never system-wide):
+#   python3 -m venv venv
+#   venv/bin/pip install -r requirements.txt
+pywebpush

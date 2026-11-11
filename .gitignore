@@ -1,0 +1,5 @@
+seat_saver.db
+vapid_keys.json
+__pycache__/
+venv/
+*.pyc
